@@ -42,9 +42,10 @@ ng g m nombre_del_modulo/nombre_del_submodulo
 
 Crear un modulo dentro de otro módulo con **Routing**
 
-```shell
+```sh
 ng generate module nombre_del_modulo/nombre_del_submodulo --routing
 
-ng g m nombre_del_modulo/nombre_del_submodulo --routing
 
 ```
+
+`ng g m nombre_del_modulo/nombre_del_submodulo --routing`
