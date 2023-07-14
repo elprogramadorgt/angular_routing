@@ -11,20 +11,25 @@ Crear un módulo
 
 ```shell
 ng generate module nombre_del_modulo
+```
+```bash
 ng g m nombre_del_modulo
 ```
 
 Crear módulo con **Routing**
 ```shell
 ng generate module nombre_del_modulo --routing
+```
+```
 ng g m nombre_del_modulo --routing
 ```
 
 Crear un component dentro del módulo sin necesidad de navegar por las carpetas
 
-```shell
+```bash
 ng generate component nombre_del_modulo/nombre_del_nuevo_componente
-
+```
+```shell
 ng g c nombre_del_modulo/nombre_del_nuevo_componente
 ```
 
@@ -34,7 +39,8 @@ Crear un modulo dentro de otro módulo
 
 ```shell
 ng generate module nombre_del_modulo/nombre_del_submodulo
-
+```
+```shell
 ng g m nombre_del_modulo/nombre_del_submodulo
 
 ```
@@ -42,10 +48,9 @@ ng g m nombre_del_modulo/nombre_del_submodulo
 
 Crear un modulo dentro de otro módulo con **Routing**
 
-```sh
+```shell
 ng generate module nombre_del_modulo/nombre_del_submodulo --routing
-
-
 ```
-
-`ng g m nombre_del_modulo/nombre_del_submodulo --routing`
+```shell
+ng g m nombre_del_modulo/nombre_del_submodulo --routing
+```
